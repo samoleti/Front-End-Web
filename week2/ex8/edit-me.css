@@ -1,0 +1,20 @@
+#container1 {
+    box-sizing: border-box; 
+    padding: 5px;
+    margin: 5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #5b4000;
+    /* border box doesn't include margin */
+    height: 90px;
+    width: 390px;  
+}
+
+#container2 {
+    box-sizing: border-box; 
+    padding: 5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #0e5252;  
+    height: 100px;
+}
