@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Homepage</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="proba.css">
+</head>
+<body>
+    <div class="image">
+        <header>
+            <form action="#">
+                <input type="submit" value="Online events" class="navbar-text">
+            </form>
+            <form action="#">
+                <input type="submit" value="Account" class="navbar-text">
+            </form>
+        </header>
+        <div class="all-filters">
+            <div class="filters">
+                <form action="#">
+                    <div class="time-row">
+                        <div>
+                            <label for="date" class="label">Date</label><br>
+                            <input type="text" placeholder="dd/mm/yyyy" class="text-button"><br><br>
+                        </div>
+                        <div>
+                            <label for="begining-hour" class="label">Begining hour</label><br>
+                            <input type="text" placeholder="hh/mm" class="text-button"><br><br>
+                        </div>
+                        <div>
+                            <label for="ending-hour" class="label">Ending hour</label><br>
+                            <input type="text" placeholder="hh/mm" class="text-button"><br><br>
+                        </div>
+                    </div>
+                    <div>
+                        <label for="price" class="label">Price</label><br>
+                        <div class="price-row">
+                            <input type="text" placeholder="from" class="text-button">
+                            <input type="text" placeholder="to" class="text-button">
+                        </div>
+                    </div>
+                    <br>
+                    <label for="price" class="label">Keywords</label><br>
+                    <div class="keywords" id="keywords">
+                        <button id="button-add-keyword"> + </button>
+                    </div>
+                    <br>
+                    <div class="submit">
+                        <input type="submit" value="Search" id="submit-button">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <br>
+        <p id="or"> or </p>
+        <div class="all">
+            <form action="#">
+                <input type="submit" value="Show all events" id="show-all-events"/>
+            </form>
+        </div>
+    </div>
+    <script src="keywords.js"></script>
+</body>
+</html>
